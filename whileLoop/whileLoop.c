@@ -1,11 +1,12 @@
 #include <stdio.h>
 int main()
 {
-    int count = 0;
-    while (count < 10)
+    // print your name ten time
+    int nameCounter = 0;
+    while (nameCounter < 10)
     {
         printf("Md Mohibulla Sheikh \n");
-        count++;
+        nameCounter++;
     }
 
     return 0;
